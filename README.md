@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nicolasbeauvais/laravel-botscout.svg?style=flat-square)](https://packagist.org/packages/nicolasbeauvais/laravel-botscout)
 [![Build Status](https://img.shields.io/travis/nicolasbeauvais/laravel-botscout/master.svg?style=flat-square)](https://travis-ci.org/nicolasbeauvais/laravel-botscout)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/xxxxxxxxx.svg?style=flat-square)](https://insight.sensiolabs.com/projects/xxxxxxxxx)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/005620f8-d154-41f1-bc9b-4c27a1cf36ab.svg?style=flat-square)](https://insight.sensiolabs.com/projects/005620f8-d154-41f1-bc9b-4c27a1cf36ab)
 [![Quality Score](https://img.shields.io/scrutinizer/g/nicolasbeauvais/laravel-botscout.svg?style=flat-square)](https://scrutinizer-ci.com/g/nicolasbeauvais/laravel-botscout)
 [![Total Downloads](https://img.shields.io/packagist/dt/nicolasbeauvais/laravel-botscout.svg?style=flat-square)](https://packagist.org/packages/nicolasbeauvais/laravel-botscout)
 
