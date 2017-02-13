@@ -6,6 +6,8 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/nicolasbeauvais/laravel-botscout.svg?style=flat-square)](https://scrutinizer-ci.com/g/nicolasbeauvais/laravel-botscout)
 [![Total Downloads](https://img.shields.io/packagist/dt/nicolasbeauvais/laravel-botscout.svg?style=flat-square)](https://packagist.org/packages/nicolasbeauvais/laravel-botscout)
 
+![bs_logo_full](https://cloud.githubusercontent.com/assets/2951704/22866541/8c6ddd80-f178-11e6-8a94-ded54a0b109a.gif)
+
 Protect your website against automated scripts using the [botscout.com](http://botscout.com/) API. 
 
 ## Installation
