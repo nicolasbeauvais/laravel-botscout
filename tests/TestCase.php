@@ -2,9 +2,9 @@
 
 namespace NicolasBeauvais\LaravelBotScout\Test;
 
+use Orchestra\Testbench\TestCase as Orchestra;
 use NicolasBeauvais\LaravelBotScout\BotScoutFacade;
 use NicolasBeauvais\LaravelBotScout\BotScoutServiceProvider;
-use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra
 {

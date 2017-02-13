@@ -3,22 +3,22 @@
 namespace NicolasBeauvais\LaravelBotScout\Test;
 
 use Mockery;
-use NicolasBeauvais\BotScout\BotScout as BotScoutClient;
-use NicolasBeauvais\BotScout\BotScoutResponse;
 use NicolasBeauvais\LaravelBotScout\BotScout;
+use NicolasBeauvais\BotScout\BotScoutResponse;
+use NicolasBeauvais\BotScout\BotScout as BotScoutClient;
 
 class BotScoutTest extends TestCase
 {
-    /** @var  \Mockery\MockInterface */
+    /** @var \Mockery\MockInterface */
     protected $botScoutClient;
 
-    /** @var  BotScout */
+    /** @var BotScout */
     protected $botScout;
 
-    /** @var  BotScoutResponse */
+    /** @var BotScoutResponse */
     protected $fakeResponse;
 
-    /** @var  array */
+    /** @var array */
     protected $arguments;
 
     public function setUp()

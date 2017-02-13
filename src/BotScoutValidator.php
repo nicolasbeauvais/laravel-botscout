@@ -4,7 +4,7 @@ namespace NicolasBeauvais\LaravelBotScout;
 
 class BotScoutValidator
 {
-    /** @var  BotScout */
+    /** @var BotScout */
     protected $botScout;
 
     /**
