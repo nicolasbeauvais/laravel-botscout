@@ -1,4 +1,5 @@
 <?php
+
 return [
     /*
      * Your botscout api key.

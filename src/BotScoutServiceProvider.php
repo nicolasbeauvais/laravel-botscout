@@ -3,8 +3,8 @@
 namespace NicolasBeauvais\LaravelBotScout;
 
 use GuzzleHttp\Client;
-use NicolasBeauvais\BotScout\BotScout as BotScoutClient;
 use Illuminate\Support\ServiceProvider;
+use NicolasBeauvais\BotScout\BotScout as BotScoutClient;
 
 class BotScoutServiceProvider extends ServiceProvider
 {
