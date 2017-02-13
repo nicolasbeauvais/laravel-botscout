@@ -86,6 +86,9 @@ BotScout::name('John Doe')->isValid();
 BotScout::mail('email@test.com')->isValid();
 
 BotScout::ip('127.0.0.1')->isValid();
+
+// We also include a quick way of testing a user with integrated exception catch
+BotScout::check('John Doe', 'email@test.com', '127.0.0.1'); // true or false
 ```
 ### Real life example
 
@@ -98,7 +101,7 @@ $validator = Validator::make($request->all(), [
 ]);
 
 $validator->after(function ($validator) {
-    if (!BotScout::multi($request->get('name'), $request->get('email'), $request->ip())->isValid()) {
+    if (!BotScout::check($request->get('name'), $request->get('email'), $request->ip())) {
         $validator->errors()->add('email', 'Sorry, it looks like your a bot!');
     }
 });

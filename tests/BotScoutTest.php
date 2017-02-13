@@ -32,6 +32,18 @@ class BotScoutTest extends TestCase
         $this->botScout = new BotScout($this->botScoutClient);
     }
 
+    public function test_check()
+    {
+        $this->botScoutClient->shouldReceive('multi')
+            ->withArgs($this->arguments)
+            ->once()
+            ->andReturn($this->fakeResponse);
+
+        $response = $this->botScout->check($this->arguments[0], $this->arguments[1], $this->arguments[2]);
+
+        $this->assertFalse($response);
+    }
+
     public function test_multi()
     {
         $this->botScoutClient->shouldReceive('multi')

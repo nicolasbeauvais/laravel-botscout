@@ -20,6 +20,24 @@ class BotScout
     }
 
     /**
+     * Check based on the "multi" method with a failsafe.
+     *
+     * @param string $name
+     * @param string $mail
+     * @param string $ip
+     *
+     * @return bool
+     */
+    public function check(string $name = null, string $mail = null, string $ip = null) : bool
+    {
+        try {
+            return $this->botScoutClient->multi($name, $mail, $ip)->isValid();
+        } catch (\Exception $exception) {
+            return false;
+        }
+    }
+
+    /**
      * Test matches all parameters at once.
      *
      * @param string $name
