@@ -94,11 +94,14 @@ BotScout::ip('127.0.0.1')->isValid();
 // We also include a quick way of testing a user with integrated exception catch
 BotScout::check('John Doe', 'email@test.com', '127.0.0.1'); // true or false
 ```
-### Real life example
+### Real life example using the check method
 
-The `multi` method is the recommended way to validate a register form:
+The `check` method is the recommended way to validate a register form:
+
+>>>The `check` method is a wrapper to the `multi`method to atch any http eroor / timeout. If the  botscout api is not responding, the method will return false.
 
 ```php
+// Create a classic validation 
 $validator = Validator::make($request->all(), [
     'email' => 'required|email|unique:users',
     'name' => 'required|max:20',
