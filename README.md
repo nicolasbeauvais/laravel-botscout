@@ -98,7 +98,7 @@ BotScout::check('John Doe', 'email@test.com', '127.0.0.1'); // true or false
 
 The `check` method is the recommended way to validate a register form:
 
->The `check` method is a wrapper to the `multi`method to atch any http error / timeout. If the  botscout api is not responding, the method will return false.
+>The `check` method is a wrapper to the `multi`method that catch any http error / timeout. If the  botscout api is not responding, the method will return false.
 
 ```php
 // Create a classic validation 
