@@ -19,8 +19,8 @@
     ],
     "require": {
         "php": "^7.0",
-        "illuminate/contracts": "~5.1.0|~5.2.0|~5.3.0|~5.4.0",
-        "illuminate/support": "~5.1.0|~5.2.0|~5.3.0|~5.4.0",
+        "illuminate/contracts": "~5.1.0|~5.2.0|~5.3.0|~5.4.0|~5.5.0",
+        "illuminate/support": "~5.1.0|~5.2.0|~5.3.0|~5.4.0|~5.5.0",
         "nicolasbeauvais/botscout-client": "^1.0"
     },
     "require-dev": {
@@ -43,5 +43,15 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NicolasBeauvais\\LaravelBotScout\\BotScoutServiceProvider"
+            ],
+            "aliases": {
+                "BotScout": "NicolasBeauvais\\LaravelBotScout\\BotScoutFacade"
+            }
+        }
     }
 }
