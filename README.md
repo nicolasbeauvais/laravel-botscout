@@ -74,7 +74,7 @@ $validator = Validator::make(['ip' => '127.0.0.1'], [
 ]);
 ```
 
-Note that you will need to create the validation message by yourself, as described in the [Laravel documentation](https://laravel.com/docs/5.4/validation#custom-error-messages).
+Note that you will need to create the validation message by yourself, as described in the [Laravel documentation](https://laravel.com/docs/5.5/validation#custom-error-messages).
 
 ### Facade
 
